@@ -24,8 +24,7 @@
 		<sonar.host.url>http://13.233.246.210:9000/</sonar.host.url>
                <!-- <sonar.login>bd69bb107e8796e419ba8d6a723fb927404c3cce</sonar.login> -->
 		 
-                <sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password> 
+                <sonar.login>c6d9f965cc42fb8261ee3784d28941ffad4651f5</sonar.login>
               
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -101,13 +100,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>flipkart Releases Nexus Repository</name>
-	      <url>http://65.0.173.105:8000/newnexus/repository/flipkart-release/</url>
+	      <url>http://13.233.126.173:8000/newnexus/repository/flipkart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>flipkart Snapshot Nexus Repository </name>
-	      <url>http://65.0.173.105:8000/newnexus/repository/flipkart-snapshot/</url>
+	      <url>http://13.233.126.173:8000/newnexus/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
