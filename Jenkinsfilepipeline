@@ -1,6 +1,7 @@
 node
 {
     def mavenHome = tool name: "maven3.6.2"
+    properties([[$class: 'JiraProjectProperty'], buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
     stage("get the code")
     {
         git branch: 'development', credentialsId: '572ca6cc-bbb0-430a-a91b-f9f3e47f62a6', url: 'https://github.com/dreamz25/maven-web-application.git'
